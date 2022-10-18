@@ -1,11 +1,20 @@
+/*Especificidad: 001*/
 body{
     display: grid;
-    grid-template-rows: 0.2fr 0.2fr 1fr 0.1fr;
-    gap: 10px;
+    gap: 1rem;
     grid-auto-flow: row;
 }
+/*Especificidad: 002*/
+nav > ul {
+    grid-area: nav;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 0.5rem;
+    list-style: none;
+}
+/*Especificidad: 001*/
 main{
     display:grid;
-    grid-template-rows: 0.6fr 0.2fr;
-    gap: 20px;
+    gap: 1rem;
 }

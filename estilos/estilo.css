@@ -7,6 +7,7 @@ body {
   font-family: Tahoma,sans-serif;
   background-color: #d74f00; /* For browsers that do not support gradients */
   background-image: linear-gradient(#d74f00 , #ffd2b8);
+
 }
 
 /*Especificidad: 001*/
@@ -50,16 +51,15 @@ td{
   font-size:medium;
   text-align: center;
 }
+
 /*Especificidad: 001*/
 li{
   font-size:medium;
 }
+
 /*Especificidad: 001*/
-video,img{
-  display: block;
-  margin: auto;
+img{
   width:20%;
-  height: auto;
 }
 /*Especificidad: 001*/
 video{
