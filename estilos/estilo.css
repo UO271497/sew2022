@@ -9,16 +9,34 @@ body {
   background-image: linear-gradient(#d74f00 , #ffd2b8);
 
 }
-
 /*Especificidad: 001*/
 h1,h2{
   text-transform: uppercase;
   text-align: center;
 }
 
+h1,h2,h3{
+  border-radius:  2em 3em;
+  background: #73AD21;
+  text-align: center;
+}
+h4{
+  padding-left: 0.5em;
+  border-radius:  0.5em ;
+  background: #73AD21;
+  text-align: left;
+}
+label{
+  font-weight: bold;
+}
+
 /*Especificidad: 001*/
 nav { 
+  padding-left: 1em;
+  border-radius:  1em 1em;
+  background: #73AD21;
   font-weight: bold;
+
 }
 
 /*Especificidad: 002*/
@@ -58,12 +76,21 @@ li{
 }
 
 /*Especificidad: 001*/
+aside{
+  text-align: center;
+}
+
+/*Especificidad: 001*/
 img{
-  width:20%;
+  width:auto;
+  height: auto;
+  max-width: 100%;
 }
 /*Especificidad: 001*/
 video{
-  width:60%;
+  width:auto;
+  height: auto;
+  max-width: 100%;
 }
 
 

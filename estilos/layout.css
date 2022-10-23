@@ -1,20 +1,36 @@
 /*Especificidad: 001*/
 body{
     display: grid;
-    gap: 1rem;
+    grid-template-rows: 0.1fr 0.1fr 4fr 0.4fr;
+    grid-auto-columns: 1fr;
     grid-auto-flow: row;
+    gap: 1em;
 }
+/*Especificidad: 001*/
+header{
+    grid-area: 1 / 1 / 2 / 2;
+}
+/*Especificidad: 001*/
+nav { grid-area: 2 / 1 / 3 / 2; }
+
 /*Especificidad: 002*/
 nav > ul {
-    grid-area: nav;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: max-content;
-    gap: 0.5rem;
+    gap: 0.5em;
     list-style: none;
 }
+
 /*Especificidad: 001*/
 main{
-    display:grid;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0.5em;
+    grid-auto-flow: row;
+    grid-area: 3 / 1 / 4 / 2;
 }
+/*Especificidad: 001*/
+footer { grid-area: 4 / 1 / 5 / 2; }
+
