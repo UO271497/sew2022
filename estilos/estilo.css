@@ -17,7 +17,7 @@ h1,h2{
 /*Especificidad: 001*/
 h1,h2,h3{
   border-radius:  2em 3em;
-  background: #5a9a00;
+  background: #67b000;
   text-align: center;
 }
 /*Especificidad: 001*/
