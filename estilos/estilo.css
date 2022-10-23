@@ -28,7 +28,7 @@ h4{
   text-align: left;
 }
 /*Especificidad: 001*/
-label{
+legend,label{
   font-weight: bold;
 }
 
